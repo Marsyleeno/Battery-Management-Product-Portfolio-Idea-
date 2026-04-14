@@ -1,6 +1,6 @@
 # --- Stage 1: Build the Application ---
 # Replace '8.0' with '9.0' or '10.0' if your GameStore.Api.csproj uses a newer TargetFramework
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copy the project file and restore dependencies
