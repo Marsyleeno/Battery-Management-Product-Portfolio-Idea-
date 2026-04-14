@@ -1,0 +1,66 @@
+GET http://localhost:5238/games 
+
+###
+GET http://localhost:5238/games/1
+
+### Add Resident Evil Requiem
+POST http://localhost:5238/games
+Content-Type: application/json
+
+{
+  "name": "Resident Evil Requiem",
+  "genreId": 2,
+  "price": 19.99,
+  "releaseDate": "1992-07-15"
+}
+
+### Add Silent Hill f
+POST http://localhost:5238/games
+Content-Type: application/json
+
+{
+  "name": "Silent Hill f",
+  "genreId": 2,
+  "price": 69.99,
+  "releaseDate": "2026-02-28"
+}
+
+### Add Final Fantasy VII Remake
+POST http://localhost:5238/games
+Content-Type: application/json
+
+{
+  "name": "Final Fantasy VII Remake",
+  "genreId": 3,
+  "price": 29.99,
+  "releaseDate": "2026-02-10"
+}
+
+### Add Zelda
+POST http://localhost:5238/games
+Content-Type: application/json
+
+{
+  "name": "The Legend of Zelda: Breath of the Wild",
+  "genreId": 5, 
+  "price": 59.99,
+  "releaseDate": "2017-03-03"
+}
+
+###
+PUT http://localhost:5238/games/1
+Content-Type: application/json
+
+{
+  "name": "Resident Evil Requiem: Director's Cut",
+  "genreId": 2,
+  "price": 24.99,
+  "releaseDate": "1992-07-15"
+}
+
+###
+DELETE http://localhost:5238/games/1 
+
+
+###
+GET http://localhost:5238/genres  
