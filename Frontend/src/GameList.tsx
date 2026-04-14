@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const API_URL = 'https://adi-product-portfolio-inventory-idea.onrender.com'; 
+const API_URL = 'https://adi-product-portfolio-inventory-idea.onrender.com/products'; 
 
 interface Product {
   id: number;

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams, Link } from 'react-router-dom';
 
-const API_URL = 'https://adi-product-portfolio-inventory-idea.onrender.com'; 
+const API_URL = 'https://adi-product-portfolio-inventory-idea.onrender.com/products'; 
 const CATEGORY_API_URL = '/api/categories'; 
 
 interface Category {
