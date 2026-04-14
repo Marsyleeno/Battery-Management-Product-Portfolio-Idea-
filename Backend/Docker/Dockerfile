@@ -12,7 +12,7 @@ COPY . .
 RUN dotnet publish "GameStore.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # --- Stage 2: Run the Application ---
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=build /app/publish .
 
