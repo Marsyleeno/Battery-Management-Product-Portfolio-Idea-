@@ -82,7 +82,7 @@ export default function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       {/* Official ADI Styled Navbar */}
       <nav 
         className="navbar navbar-expand-lg px-4 mb-4 shadow-sm" 
@@ -93,11 +93,12 @@ export default function App() {
       >
         <div className="container">
           <Link className="navbar-brand fw-bold d-flex align-items-center text-white" to="/">
-            <img 
-              src="/adi-logo.png" 
-              alt="Analog Devices Logo" 
-              style={{ height: '40px', marginRight: '20px' }} 
-            />
+          <img 
+            // Change the src line from "/adi-logo.png" to this:
+            src={`${import.meta.env.BASE_URL}adi-logo.png`} 
+            alt="Analog Devices Logo" 
+            style={{ height: '28px', marginRight: '12px' }} 
+          />
             Battery Monitors & Fuel Gauges
           </Link>
           
