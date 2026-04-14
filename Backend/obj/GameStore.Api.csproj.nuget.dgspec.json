@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\adi-projects\\GameStore\\GameStore.Api\\GameStore.Api.csproj": {}
+    "C:\\adi-projects\\Battery-Management-Product-Portfolio-Idea-\\Backend\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\adi-projects\\GameStore\\GameStore.Api\\GameStore.Api.csproj": {
+    "C:\\adi-projects\\Battery-Management-Product-Portfolio-Idea-\\Backend\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\adi-projects\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "C:\\adi-projects\\Battery-Management-Product-Portfolio-Idea-\\Backend\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "C:\\adi-projects\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "C:\\adi-projects\\Battery-Management-Product-Portfolio-Idea-\\Backend\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\adi-projects\\GameStore\\GameStore.Api\\obj\\",
+        "outputPath": "C:\\adi-projects\\Battery-Management-Product-Portfolio-Idea-\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
