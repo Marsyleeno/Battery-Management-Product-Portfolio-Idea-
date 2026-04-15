@@ -1,6 +1,6 @@
-# 🔋 Battery Management Product Portfolio System
+# Battery Management Product Portfolio System
 
-## 📌 Overview
+## Overview
 The **Battery Management Product Portfolio System** is a .NET-based application designed to manage and visualize a catalog of battery-related products. It provides a structured interface for handling inventory, editing product data, and simulating a cart-based workflow.
 
 This project serves as:
@@ -10,7 +10,7 @@ This project serves as:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Implement a modular and maintainable product management system
 - Provide full CRUD functionality for inventory
 - Simulate cart-based workflows for allocation or purchasing
@@ -111,3 +111,6 @@ This project serves as:
 </div>
 
 ---
+
+📄 License
+This project is open-source and available for modification and distribution.
